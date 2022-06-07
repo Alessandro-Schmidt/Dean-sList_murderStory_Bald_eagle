@@ -22,13 +22,13 @@ print('LOCAL -- \n\na) O assassinato em uma sala fechada, pois não há testemun
 print('ARMA --\n\na) Uma fita cassete pequena foi encontrada junto aos documentos no lixo. Nesta fita, haviam instruções de como fugir do país.\n\nb) O General da CIA dentro da PUCPR possui uma arma no seu escritório\n\nc) Espiões da KGB usam armas pouco convencionais para evitar suspeitas.\n\nd) Aquilo que constrói, também destrói.\n\ne) Todos os computadores da PUCPR foram desligados no momento do assassinato.\n\n')
 print('SUSPEITO --\n\na) Se sabe da existência de no mínimo uma espiã da KGB na Universidade.\n\nb) Não era do interesse americano, a morte da Decâna.\n\nc) O assassino não era neutro.\n\nd) É conhecido o envolvimento de pelo menos um dos monitores com a KGB.\n\ne) Quem cometeu o crime, estava acompanhado de alguém do sexo oposto.')
 print('\n\nFATOS IMPORTANTES\n\nf) Você investigar alguém pode causar a sua morte.\n\ng) Cuidado com pistas falsas...\n\nh) A seguência com que investiga os personagens pode mudar as dicas que recebe!\n\ni) Você pode investigar alguns personagens novamente depois de outras revelação!\n\nBOA SORTE!')
-lados = [['Nome:', 'Lado:', 'Pistas:'], ['Vinícius', '?', ''], ['Alessandro', '?', ''], ['Marco Paludo', 'General da CIA dentro da PUC', ''], ['Professora Rafaela', 'Espiã da CIA', ''], ['Giulia Carvalho', '?', ''], ['Sheila Reinehr', 'Espiã da CIA', '']]
+lados = [['Nome:', 'Lado:', 'Pistas:'], ['Franklin Vieira', '?', ''], ['Alessandro', '?', ''], ['Marco Paludo', 'General da CIA dentro da PUC', ''], ['Professora Rafaela', 'Espiã da CIA', ''], ['Giulia Carvalho', '?', ''], ['Sheila Reinehr', 'Espiã da CIA', '']]
 
 while True: 
   print(tabulate(lados,headers='firstrow', tablefmt='grid'))
   while True: 
     tool = False
-    nomes = [['Código', 'Nome', 'Código', 'Nome'],['1', 'Vinícius', '2', 'Alessandro'], ['3', 'Marco Paludo', '4', 'Professora Rafaela'],['5','Giulia Carvalho', '6', 'Sheila Reinehr']]
+    nomes = [['Código', 'Nome', 'Código', 'Nome'],['1', 'Franklin', '2', 'Alessandro'], ['3', 'Marco Paludo', '4', 'Professora Rafaela'],['5','Giulia Carvalho', '6', 'Sheila Reinehr']]
     armas = [['Código', 'Arma'], ['1', 'Estrangulamento'], ['2', 'Martelo'], ['3','Agulha'], ['4','Compasso'], ['5', 'Machado']]
     locais = [['Código','Locais suspeitos'], ['1','Sala dos monitores'], ['2', 'Biblioteca'], ['3', 'Sala secreta da CIA'], ['4', 'Ponte Escola\nPolitécnica']]
     escolhas_possiveis = [['Número da ação','Ação'], ['1','Investigar'], ['2', 'Acusar'], ['3', 'Consultar pistas']]
@@ -55,13 +55,13 @@ while True:
         except:
           print('\033[31m\nDigite apenas opções válidas\n\033[m')
       if p == 1:
-        print('\n\nVocê chega para investigar Vinícius...\n\n')
+        print('\n\nVocê chega para investigar Franklin...\n\n')
         time.sleep(1.5)
         print('Ele olha para os dois lados, e quando descobre suas intenções, pede que aja naturalmente, enquanto põe uma arma na sua cintura.')
         time.sleep(2)
         print("Ele manda você andar até a sala dos monitores. Chegando lá. Ele lhe entrega uma chave de ponta triangular. E diz para você não se desfazer dela")
         time.sleep(2)
-        print('VINÍCIUS: "Não confie em ninguém. É apenas isso que me permitiram dizer."')
+        print('FRANKLIN: "Não confie em ninguém. É apenas isso que me permitiram dizer."')
         lados[1][2] = 'Chave de ponta triangular'
         tool = True
       elif p == 2: 
@@ -85,7 +85,7 @@ while True:
             print('Professora Rafaela.')
             print('Com muita pressa, a professora olha nos seus olhos atordoada e diz: ')
             time.sleep(2)           
-            print('RAFAELA: "Vou te dizer tudo que eu sei ok? Vinícius é um espião da CIA, ele e o Alessandro trabalham pra mim, infelizmente o Alessandro é Neutro. Mas vê se para de se preocupar com isso! Já aconteceu, não há mais o que eu possa fazer! Preciso ir!"')
+            print('RAFAELA: "Vou te dizer tudo que eu sei ok? Franklin é um espião da CIA, ele e o Alessandro trabalham pra mim, infelizmente o Alessandro é Neutro. Mas vê se para de se preocupar com isso! Já aconteceu, não há mais o que eu possa fazer! Preciso ir!"')
             time.sleep(9)
             lados[4][2] = 'Dispersou o assunto,\nmuita pressa'
             lados[1][1] = 'Espião da CIA'
