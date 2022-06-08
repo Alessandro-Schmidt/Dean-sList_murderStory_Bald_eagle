@@ -65,6 +65,19 @@ while True:
         except:
           print('\033[31m\nDigite apenas opções válidas\n\033[m')
       if p == 1:
+        if tool == true:
+              print('FERNANDO: Não confie na Stephany, sob nenhuma circunstância.')
+              time.sleep(5)
+              print('FERNANDO: CUIDADO!')
+              time.sleep(3)
+              print('Fernando se joga em cima de você. Você não entende no primeiro momento. Quando observa, vê que ele levou um tiro nas costas. Fernando salvou sua vida.')
+              time.sleep(3)
+              print('VOCÊ: Fernando!')
+              time.sleep(3) 
+              print('FERNANDO: Continue sua investigação... e não se esqueça... cof cof... As mãos que constroem, também destroem')
+              lados[5][2] = 'Aquilo que constrói, também destrói.'
+              
+              
         print('\n\nVocê chega para investigar Fernando...\n\n')
         time.sleep(1.5)
         print('Ele olha para os dois lados, e quando descobre suas intenções, pede que aja naturalmente, enquanto põe uma arma na sua cintura.')
@@ -78,7 +91,7 @@ while True:
           print('\nAlessadro:')
           time.sleep(2) 
           print('Ele é difícil de desembuchar, provavelmente recebeu treinamento para isso\n\nA única coisa que diz: "Me proibiram de falar sobre esse tema... Se disser algo, corro sério risco de vida. O que posso dizer, o crime foi feito em duas pessoas, uma delas, quem realmente matou, fiquei sabendo que descobriu o que era o tal do "Elixir", por isso matou o Paludo."')
-          lados[2][2] ='"Estavam em dois."\n matou com ódio(?)'    
+          lados[2][2] ='"Estavam em dois."\n matou por causa do elixir(?)'    
           lados[2][1] ="(Espião da CIA) v (Espião da KGB)"
           time.sleep(10)  
       elif p == 3:
@@ -112,11 +125,12 @@ while True:
         time.sleep(3)
         print('STEPHANY: Se eliminarmos você assim, vai ficar muito suspeito. Vamos ajudar na investigação, afinal, também queremos a cabeça de quem fez isso. Nós queríamos apenas sequestrar e torturar o decâno por informações sobre o tal do Elixir, nunca matar ele. Somos pessoas civilizadas. Agora, o único que sabia o que era se foi.')
         time.sleep(7)
-        print('A última vez que vimos o Decâno foi enquanto ele ia para a sala secreta da CIA. Achamos estranho ele ter reunião lá, todas as reuniões da Decâna com a CIA eram feitas em locais aleatórios. ')
+        print('A última vez que vimos o Decâno foi enquanto espionávamos ele durante o jogo de bocha. Vimos ele sair apressado... Provavelmente enfurecido')
         time.sleep(7)
         print('JULIEN: "Os maiores interessados na morte do Decâno eram aqueles que foram aqueles que ganhariam com a descoberta do elixir"')
         print('')
         lados[5][1] = 'Espiã da KGB'
+        lados[5][2] = 'Brabo na bocha?'
         lados[6][1] += '^ (Espião KGB)'    
       elif p == 6:
         if morte_em_acao == False: 
@@ -135,20 +149,20 @@ while True:
           time.sleep(3)
           print('VILMAR: Você eu treinei pra ser dupla espiã. O Julian não. Ninguém mente para mim e fica impune!')
           time.sleep(4)
-          print('STEPHANY: Então quer que vá atrás da responsável do assassinato da Decânca?')
+          print('STEPHANY: Então quer que vá atrás do responsável do assassinato da Decânca?')
           time.sleep(3)
-          print('VILMAR: Ela já está fugindo do país nessa altura do campeonato... ou se escondido em uma montanha! Sei lá!')
+          print('VILMAR: Ele já deve estar fugindo do país nessa altura do campeonato... ou se escondido em uma montanha! Sei lá!')
           time.sleep(2)
           print('VILMAR: Teve notícias da Rafaela? Desde que ofereci a recompensa caso ela descobrisse o que era o Elixir, ela sumiu e nunca mais deu notícia...')
-          time.sleep(3)
-          print('Você não entende muita coisa, escutando através da janela da sala, você se levanta e tenta ver o que está acontecendo... A conversa entre Stephany e Vilmar acontece sobre o corpo gelado de Julien. O seu envolvimento não supervisionado com a KGB não foi perdoado...')
+          time.sleep(61)
+          print('\nVocê não entende muita coisa, escutando através da janela da sala, você se levanta e tenta ver o que está acontecendo... A conversa entre Stephany e Vilmar acontece sobre o corpo gelado de Julien. O seu envolvimento não supervisionado com a KGB não foi perdoado...')
           time.sleep(9)
           print('A causa da morte? Deram uma machadada no bingolin dele! Que crueldade!')
           time.sleep(2)
           print('Você anota tudo, e sai de fininho para não ser pego.')
           time.sleep(4)
           lados[6][2] = 'Assassina nas montanhas...\n(Saber O que é o elixir -> $$$)'
-          lados[5][1] = '^ (Espiã da CIA)'
+          lados[5][1] = '(Espiã da CIA)'
     elif option == '2' or option == 'ACUSAR':
       print(tabulate(nomes, headers='firstrow', tablefmt='grid'))
       opt_1 = str(input('\nDigite o código ou o nome de quem deseja acusar: ')).upper()
