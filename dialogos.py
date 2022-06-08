@@ -1,6 +1,6 @@
 def dialogo_final():
     import time
-    print('Você conseguiu!\nAo saber que o a decâna havia escolhido Alessandro Schmidt para a coordenação do projeto da bomba de hidrogênio, Rafaela chamou ela para cobrar o por quê de não ter sido escolhida.\nSeu esposo fez questão de acompanhá-la. Ele contava com o dinheiro da promoção para secretamente financiar o novo brinquedo da CIA...')
+    print('Você conseguiu!\nAo saber que ')
     time.sleep(10)
     print("O novo brinquedo da CIA era um playstation 5.")
     time.sleep(5)

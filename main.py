@@ -2,7 +2,7 @@
 Você pode fazer a inserção dessas bibliotecas no visual studio code como mostra nesse vídeo: 
 https://www.youtube.com/watch?v=-Wvt7lWxzf4
 trilha sonora recomendada: https://www.youtube.com/watch?v=ytw6ivAjkig&t=122s """
-# resposta: Stephany, matou marco Paludo, no Havana, com veneno na Caipirinha. 
+# resposta: Rafaela, matou marco Paludo, no Havana, na porrada.
 
 import pyfiglet
 from tabulate import tabulate
@@ -17,23 +17,24 @@ print(sub_title)
 print(edition)
 
 # início da história
-print('--- Contexto ---\nNo auge da Guerra Fria, uma semana após a crise dos mísseis de Cuba e início do bloqueio continental, a América Latina vive um momento de tensão sem igual.\n\nNa PUCPR não é diferente.\n\nEspiões andam disfarçados entres os alunos, com o objetivo de roubar o tão desejado elixir. Ninguém sabe o que é o elixir, só se sabe que URSS e EUA estão buscando ferozmente\n\nO prédio da Escola Politécnica é o mais vigiado do Paraná. Não é permitida a entrada de pessoas não autorizadas nas aulas de BES.\n\nO assassinato da reitora veio como um choque para os estudantes, e está sendo abafado pela mídia e pela Universidade.\n\nVocê foi designado pelo Governo Federal para solucionar o mistério. A justiça está nas suas mãos. Descubra o autor do crime, o local do crime e a arma do crime. SEJA RÁPIDO! O responsável pode estar fugindo.\n\n')
-print('-'*len('Vítima: Andreia Malucelli, decâna da Escola Politécnica'))
-print('RELATÓRIO DA INVESTIGAÇÃO\nData do crime: 20/10/1962\nVítima: Andreia Malucelli, decâna da Escola Politécnica.\nLocal: Sigiloso.\nArma: Sigiloso.\nAutor do crime: em investigação.')
-print('-'*len('Vítima: Andreia Malucelli, decâno da Escola Politécnica'))
+print('--- Contexto ---\nNo auge da Guerra Fria, uma semana após a crise dos mísseis de Cuba e início do bloqueio continental, a América Latina vive um momento de tensão sem igual.\n\nNa PUCPR não é diferente.\n\nEspiões andam disfarçados entres os alunos, com o objetivo de roubar o tão desejado elixir. Ninguém sabe o que é o elixir, só se sabe que URSS e EUA estão buscando ferozmente\n\nO prédio da Escola Politécnica é o mais vigiado do Paraná. Não é permitida a entrada de pessoas não autorizadas nas aulas de BES, BCC ou BSI.\n\nO assassinato do decâno veio como um choque para os estudantes, e está sendo abafado pela mídia e pela Universidade.\n\nVocê foi designado pelo Governo Federal para solucionar o mistério. A justiça está nas suas mãos. Descubra o autor do crime, o local do crime e a arma do crime. SEJA RÁPIDO! O responsável pode estar fugindo.\n\n')
+print('-'*len('Vítima: Marco Paludo, decâno da Escola Politécnica'))
+print('RELATÓRIO DA INVESTIGAÇÃO\nData do crime: 20/10/1962\nVítima: Marco Paludo, decâno da Escola Politécnica.\nLocal: Sigiloso.\nArma: Sigiloso.\nAutor do crime: em investigação.')
+print('-'*len('Vítima: Marco Paludo, decâno da Escola Politécnica'))
 print('\n\n-- HIPÓTESES --\n\n')
-print('LOCAL -- \n\na) O assassinato em uma sala fechada, pois não há testemunhas\n\nb) Foram encontrados documentos queimados da Decâna no lixo antes da saída da PUCPR.\n\nc) Ela fazia encontros semanais com a CIA e a KGB para acalmar os ânimos, sempre em lugares secretos\n\nd) A CIA fechou o campûs, em especial o bloco amarelo.\n\n')
+print('LOCAL -- \n\na) O assassinato foi um local aberto, mas não há testemunhas\n\nb) Foram encontrados documentos queimados do Decâno em um dos lixos da PUCPR.\n\nc) Ela fazia encontros semanais com a CIA e a KGB para acalmar os ânimos, sempre em lugares secretos\n\nd) A CIA fechou o câmpus, em especial o bloco amarelo.\n\n')
 print('ARMA --\n\na) Uma fita cassete pequena foi encontrada junto aos documentos no lixo. Nesta fita, haviam instruções de como fugir do país.\n\nb) O General da CIA dentro da PUCPR possui uma arma no seu escritório\n\nc) Espiões da KGB usam armas pouco convencionais para evitar suspeitas.\n\nd) Aquilo que constrói, também destrói.\n\ne) Todos os computadores da PUCPR foram desligados no momento do assassinato.\n\n')
-print('SUSPEITO --\n\na) Se sabe da existência de no mínimo uma espiã da KGB na Universidade.\n\nb) Não era do interesse americano, a morte da Decâna.\n\nc) O assassino não era neutro.\n\nd) É conhecido o envolvimento de pelo menos um dos monitores com a KGB.\n\ne) Quem cometeu o crime, estava acompanhado de alguém do sexo oposto.')
+print('SUSPEITO --\n\na) Se sabe da existência de no mínimo uma espiã da KGB na Universidade.\n\nb) Não era do interesse Sovitético, a morte do Decâno.\n\nc) O assassino não era neutro.\n\nd) É conhecido o envolvimento de pelo menos um dos alunos de BCC com a KGB.\n\ne) Quem cometeu o crime, estava acompanhado de alguém do sexo oposto.\n\nf) Alguém de fora do círculo comum, é provavelmente um agente duplo')
 print('\n\nFATOS IMPORTANTES\n\nf) Você investigar alguém pode causar a sua morte.\n\ng) Cuidado com pistas falsas...\n\nh) A seguência com que investiga os personagens pode mudar as dicas que recebe!\n\ni) Você pode investigar alguns personagens novamente depois de outras revelação!\n\nBOA SORTE!')
-lados = [['Nome:', 'Lado:', 'Pistas:'], ['Fernando', '?', ''], ['Alessandro', '?', ''], ['Vilmar', 'General da CIA dentro da PUC', ''], ['Professora Rafaela', 'Espiã da CIA', ''], ['Stephany Ferrão', '?', ''], ['Julien', 'Espiã da CIA', '']]
+lados = [['Nome:', 'Lado:', 'Pistas:'], ['Fernando', '?', ''], ['Alessandro', '?', ''], ['Vilmar', 'General da CIA dentro da PUC', ''], ['Professora Rafaela', 'Espiã da CIA', ''], ['Stephany Ferrão', '?', ''], ['Julien', 'Espião da CIA', '']]
 
-while True: 
+while True:
   print(tabulate(lados,headers='firstrow', tablefmt='grid'))
+  result_set = [False,False, False]
+  tool = False
   while True: 
-    tool = False
     nomes = [['Código', 'Nome', 'Código', 'Nome'],['1', 'Fernando', '2', 'Alessandro'], ['3', 'Vilmar', '4', 'Professora Rafaela'],['5','Stephany Ferrão', '6', 'Julien']]
-    armas = [['Código', 'Arma'], ['1', 'Estrangulamento'], ['2', 'Martelo'], ['3','Porrada'], ['4','Compasso'], ['5', 'Machado'], ['Veneno']]
+    armas = [['Código', 'Arma'], ['1', 'Estrangulamento'], ['2', 'Martelo'], ['3','Porrada'], ['4','Compasso'], ['5', 'Machado'], ['6', 'Veneno']]
     locais = [['Código','Locais suspeitos'], ['1','Sala dos monitores'], ['2', 'Biblioteca'], ['3', 'Sala secreta da CIA'], ['4', 'Ponte Escola\nPolitécnica'],['5', 'Campo de bocha da PUCPR'], ['6', 'Havana']]
     escolhas_possiveis = [['Número da ação','Ação'], ['1','Investigar'], ['2', 'Acusar'], ['3', 'Consultar pistas']]
     print(tabulate(escolhas_possiveis, headers='firstrow', tablefmt='grid'))
@@ -48,6 +49,7 @@ while True:
       break
     elif option == '1' or option == 'INVESTIGAR':
       print('-'*len('INVESTIGAÇÃO')+'\nINVESTIGAÇÃO\n'+'-'*len('INVESTIGAÇÃO'))
+      print(tabulate(lados,headers='firstrow', tablefmt='grid'))
       print(tabulate(nomes, headers='firstrow', tablefmt='grid'))
       while True:
         try: 
@@ -71,14 +73,14 @@ while True:
       elif p == 2: 
           print('\nAlessadro:')
           time.sleep(2) 
-          print('Ele é difícil de desembuchar, provavelmente recebeu treinamento para isso\n\nA única coisa que diz: "Me proibiram de falar sobre esse tema... Se disser algo, corro sério risco de vida. O que posso dizer, o crime foi feito em duas pessoas, uma delas, não tinha nada haver com a PUCPR. A arma foi manual."')
-          lados[2][2] ='"Estavam em dois."\nArma manual (?)'    
+          print('Ele é difícil de desembuchar, provavelmente recebeu treinamento para isso\n\nA única coisa que diz: "Me proibiram de falar sobre esse tema... Se disser algo, corro sério risco de vida. O que posso dizer, o crime foi feito em duas pessoas, uma delas, quem realmente matou, fiquei sabendo que descobriu o que era o tal do "Elixir", por isso matou o Paludo."')
+          lados[2][2] ='"Estavam em dois."\n matou com ódio(?)'    
           lados[2][1] ="(Espião da CIA) v (Espião da KGB)"
           time.sleep(10)  
       elif p == 3:
             if tool==True:
-              print('VILMAR: Eu não auxiliaria você regularmente. Mas você contém a chave de formato triangular que nos faltava... Nesta caixa aqui, que foi roubada da KGB, há o que eles sabem do caso...')
-              print("VILAMR: Veja só o que encontramos!\nUm bilhete escrito: 'Tudo o que o Julien lhe disse, é mentira.'\nUm machado cheio de sangue...? Pra que será que foi usado?")
+              print('VILMAR: Eu não auxiliaria você regularmente. Mas você possui a chave de formato triangular que nos faltava... Nesta caixa aqui, que foi roubada da KGB, mas recuperada, há o que eles sabem do caso...')
+              print("VILMAR: Veja só o que encontramos!\nUm bilhete escrito: 'Tudo o que o Julien lhe disse, é mentira.'\nUm machado cheio de sangue...? Pra que será que foi usado?")
               lados[3][2] = 'Tudo que o Julian disser é mentira.\nMachado ensanguentado.'
               lados[6][2] = '~'
               time.sleep(5)
@@ -89,71 +91,77 @@ while True:
             print('Professora Rafaela.')
             print('Com muita pressa, a professora olha nos seus olhos atordoada e diz: ')
             time.sleep(2)           
-            print('RAFAELA: "Vou te dizer tudo que eu sei ok? Fernando é um espião da CIA, ele e o Alessandro trabalham pra mim, infelizmente o Alessandro é Neutro. Mas vê se para de se preocupar com isso! Já aconteceu, não há mais o que eu possa fazer! Preciso ir!"')
+            print('RAFAELA: "Vou te dizer tudo que eu sei ok? Fernando é um espião da CIA, ele e o Julien trabalham pra mim. Mas vê se para de se preocupar com isso! Acho que nem tudo que vemos é assassinato, pode ter sido um acidente."')
+            print('RAFAELA: Confesso que me decepcionei com ele.')
             time.sleep(9)
-            lados[4][2] = 'Dispersou o assunto,\nmuita pressa'
+            lados[4][2] = 'Dispersou o assunto\n "Acidente"?'
             lados[1][1] = 'Espião da CIA'
-            lados[2][1] = 'Neutro'
+            lados[6][1] = 'Espião da CIA'
       elif p ==5:
         morte_em_acao = True
         print('Stephany Ferrão...')
         print('STEPHANY: Por que quer tanto investigar esse caso?')
         time.sleep(2)
-        print('Tirando da bolsa um compasso e encostando em seu pescoço, ela revela sua identidade. Uma genuina espiã da KGB.\nEla lhe leva até a sala secreta, junto com outros espiões.')
+        print('Tirando da bolsa um compasso sujo e encostando em seu pescoço, ela revela sua identidade. Uma genuina espiã da KGB.\nEla lhe leva até a sala secreta, junto com outros espiões.')
         time.sleep(5)
         print('Chegando lá, você reconhece um rosto. Julien. Uma surpresa para todos.')
         time.sleep(3)
-        print('STEPHANY: Se eliminarmos você assim, vai ficar muito suspeito. Vamos ajudar na investigação, afinal, também queremos a cabeça de quem fez isso. Nós queríamos apenas sequestrar e torturar a decâna por informações sobre a bomba de Hidrogênio, nunca matar ela. Agora, a única que conhecia o projeto todo se foi.')
+        print('STEPHANY: Se eliminarmos você assim, vai ficar muito suspeito. Vamos ajudar na investigação, afinal, também queremos a cabeça de quem fez isso. Nós queríamos apenas sequestrar e torturar o decâno por informações sobre o tal do Elixir, nunca matar ele. Somos pessoas civilizadas. Agora, o único que sabia o que era se foi.')
         time.sleep(7)
-        print('A última vez que vimos a Decâna foi enquanto ela ia para a sala secreta da CIA. Achamos estranho ela ter reunião lá, todas as reuniões da Decâna com a CIA eram feitas em locais aleatórios. ')
+        print('A última vez que vimos o Decâno foi enquanto ele ia para a sala secreta da CIA. Achamos estranho ele ter reunião lá, todas as reuniões da Decâna com a CIA eram feitas em locais aleatórios. ')
         time.sleep(7)
-        print('JULIEN: "Os maiores interessados na morte da Decâna eram aqueles que foram preteridos na mudança de gerência "')
+        print('JULIEN: "Os maiores interessados na morte do Decâno eram aqueles que foram aqueles que ganhariam com a descoberta do elixir"')
         print('')
         lados[5][1] = 'Espiã da KGB'
-        lados[6][1] += '^ (Espiã KGB)'    
+        lados[6][1] += '^ (Espião KGB)'    
       elif p == 6:
         if morte_em_acao == False: 
           print('Julien...')
-          print('JULIEN: "O assassinato foi cometido por uma pessoa solteira."\JULIEN: "Eu não sei muito sobre o caso, mas sei que foi cometido ao ar livre e em um local público!"')
-          lados[6][2] = '(Assassino solteiro)'
+          print('JULIEN: O paludo sofria com alcoolismo. Passava o dia todo bebendo Skol no Havana.')
+          print('JULIEN: "O decâno foi morto durante um jogo de bocha."\nJULIEN: "Sei também que o assassino foi com a intenção de matar"')
+          time.sleep(3)
+          lados[6][2] = '(Morto na Bocha) ^ (Intenção de matar) ^ (Havana)'
         else: 
-          lados[6][1] = 'Morta durante a operação.'
+          lados[6][1] = 'Morto durante a operação.'
           print('Você chega para investigar Julien...')
           time.sleep(2)
           print('Ao chegar perto da sala secreta da CIA, você percebe um certo tumulto... Alguns gritos, e depois silêncio.')
           time.sleep(2)
           print('Você escuta Vilmar, coordenador de BCC, falando com alguém... Stephany Ferrão, espiã da KGB... QUE CONFUSÃO!\n')
           time.sleep(3)
-          print('VILMAR: Você eu treinei pra ser dupla espiã. O Julian não. Ninguém mente para a Águia Careca e fica impune!')
+          print('VILMAR: Você eu treinei pra ser dupla espiã. O Julian não. Ninguém mente para mim e fica impune!')
           time.sleep(4)
           print('STEPHANY: Então quer que vá atrás da responsável do assassinato da Decânca?')
           time.sleep(3)
           print('VILMAR: Ela já está fugindo do país nessa altura do campeonato... ou se escondido em uma montanha! Sei lá!')
+          time.sleep(2)
+          print('VILMAR: Teve notícias da Rafaela? Desde que ofereci a recompensa caso ela descobrisse o que era o Elixir, ela sumiu e nunca mais deu notícia...')
           time.sleep(3)
           print('Você não entende muita coisa, escutando através da janela da sala, você se levanta e tenta ver o que está acontecendo... A conversa entre Stephany e Vilmar acontece sobre o corpo gelado de Julien. O seu envolvimento não supervisionado com a KGB não foi perdoado...')
           time.sleep(9)
-          print('A causa da morte? Cortaram a garganta dela com um Postit muito afiado! Que crueldade!')
+          print('A causa da morte? Deram uma machadada no bingolin dele! Que crueldade!')
           time.sleep(2)
           print('Você anota tudo, e sai de fininho para não ser pego.')
           time.sleep(4)
-          lados[6][2] = 'Assassina nas montanhas...'
+          lados[6][2] = 'Assassina nas montanhas...\n(Saber O que é o elixir -> $$$)'
+          lados[5][1] = '^ (Espiã da CIA)'
     elif option == '2' or option == 'ACUSAR':
-      result_set = [False,False, False]
       print(tabulate(nomes, headers='firstrow', tablefmt='grid'))
       opt_1 = str(input('\nDigite o código ou o nome de quem deseja acusar: ')).upper()
+      time.sleep(1)
       if opt_1 == '4' or opt_1 in 'RAFAELA':
         result_set[0] =True
       else: 
           result_set[0] = False
       print(tabulate(armas,headers='firstrow', tablefmt='grid'))
       opt_2 = str(input('\nDigite o código ou o nome da arma que cometeu o crime: ')).upper()
-      if opt_2 == '5' or opt_2 in 'COMPASSO':
+      if opt_2 == '3' or opt_2 in 'PORRADA':
           result_set[1] = True
       else: 
           result_set[1] = False
       print(tabulate(locais,headers='firstrow', tablefmt='grid'))
       opt_3 = str(input('Digite o local onde acha que ocorreu o assassinato: ')).upper()
-      if opt_3 == '3' or opt_3 in 'SALA SECRETA':
+      if opt_3 == '6' or opt_3 in 'HAVANA':
           result_set[2]=True
       else: 
           result_set[2] = False
@@ -168,4 +176,5 @@ while True:
               print(f'\nSua investigação é falha. Corra antes que o tempo acabe.\nVocê sabe {result_set.count(True)}/3 informações corretas.')
               break
       if (result_set[0] and result_set[1] and result_set[2]) == True:
-            break
+          break
+      
