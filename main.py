@@ -1,8 +1,7 @@
 """ Neste código existem bibliotecas que precisam ser instaladas no python. São elas a pyfiglet e a tabulate. Sugerimos baixar na máquina com os comandos pip ou rodar este código no Replit. 
 Você pode fazer a inserção dessas bibliotecas no visual studio code como mostra nesse vídeo: 
 https://www.youtube.com/watch?v=-Wvt7lWxzf4
-trilha sonora recomendada: https://www.youtube.com/watch?v=ytw6ivAjkig&t=122s """
-# resposta: Rafaela, matou marco Paludo, no Havana, na porrada.
+trilha sonora recomendada: https://www.youtube.com/watch?v=UCAtGFQ4uLE&t=2046s """
 
 import pyfiglet
 from tabulate import tabulate
@@ -12,22 +11,27 @@ titulo = pyfiglet.figlet_format('DEANS LIST', font='banner3-D')
 sub_title = pyfiglet.figlet_format('Um misterio de ASSASSINATO', font='standard')
 edition = pyfiglet.figlet_format('Bald Eagle Edition', font='digital')
 print("\n\n")
+time.sleep(3)
 print(titulo)
+time.sleep(3)
 print(sub_title)
+time.sleep(3)
 print(edition)
 
 # início da história
 print('--- Contexto ---\nNo auge da Guerra Fria, uma semana após a crise dos mísseis de Cuba e início do bloqueio continental, a América Latina vive um momento de tensão sem igual.\n\nNa PUCPR não é diferente.\n\nEspiões andam disfarçados entres os alunos, com o objetivo de roubar o tão desejado elixir. Ninguém sabe o que é o elixir, só se sabe que URSS e EUA estão buscando ferozmente\n\nO prédio da Escola Politécnica é o mais vigiado do Paraná. Não é permitida a entrada de pessoas não autorizadas nas aulas de BES, BCC ou BSI.\n\nO assassinato do decâno veio como um choque para os estudantes, e está sendo abafado pela mídia e pela Universidade.\n\nVocê foi designado pelo Governo Federal para solucionar o mistério. A justiça está nas suas mãos. Descubra o autor do crime, o local do crime e a arma do crime. SEJA RÁPIDO! O responsável pode estar fugindo.\n\n')
+time.sleep(15)
 print('-'*len('Vítima: Marco Paludo, decâno da Escola Politécnica'))
 print('RELATÓRIO DA INVESTIGAÇÃO\nData do crime: 20/10/1962\nVítima: Marco Paludo, decâno da Escola Politécnica.\nLocal: Sigiloso.\nArma: Sigiloso.\nAutor do crime: em investigação.')
 print('-'*len('Vítima: Marco Paludo, decâno da Escola Politécnica'))
+time.sleep(7)
 print('\n\n-- HIPÓTESES --\n\n')
 print('LOCAL -- \n\na) O assassinato foi um local aberto, mas não há testemunhas\n\nb) Foram encontrados documentos queimados do Decâno em um dos lixos da PUCPR.\n\nc) Ela fazia encontros semanais com a CIA e a KGB para acalmar os ânimos, sempre em lugares secretos\n\nd) A CIA fechou o câmpus, em especial o bloco amarelo.\n\n')
 print('ARMA --\n\na) Uma fita cassete pequena foi encontrada junto aos documentos no lixo. Nesta fita, haviam instruções de como fugir do país.\n\nb) O General da CIA dentro da PUCPR possui uma arma no seu escritório\n\nc) Espiões da KGB usam armas pouco convencionais para evitar suspeitas.\n\nd) Aquilo que constrói, também destrói.\n\ne) Todos os computadores da PUCPR foram desligados no momento do assassinato.\n\n')
 print('SUSPEITO --\n\na) Se sabe da existência de no mínimo uma espiã da KGB na Universidade.\n\nb) Não era do interesse Sovitético, a morte do Decâno.\n\nc) O assassino não era neutro.\n\nd) É conhecido o envolvimento de pelo menos um dos alunos de BCC com a KGB.\n\ne) Quem cometeu o crime, estava acompanhado de alguém do sexo oposto.\n\nf) Alguém de fora do círculo comum, é provavelmente um agente duplo')
 print('\n\nFATOS IMPORTANTES\n\nf) Você investigar alguém pode causar a sua morte.\n\ng) Cuidado com pistas falsas...\n\nh) A seguência com que investiga os personagens pode mudar as dicas que recebe!\n\ni) Você pode investigar alguns personagens novamente depois de outras revelação!\n\nBOA SORTE!')
 lados = [['Nome:', 'Lado:', 'Pistas:'], ['Fernando', '?', ''], ['Alessandro', '?', ''], ['Vilmar', 'General da CIA dentro da PUC', ''], ['Professora Rafaela', 'Espiã da CIA', ''], ['Stephany Ferrão', '?', ''], ['Julien', 'Espião da CIA', '']]
-
+time.sleep(20)
 while True:
   print(tabulate(lados,headers='firstrow', tablefmt='grid'))
   result_set = [False,False, False]
@@ -120,7 +124,7 @@ while True:
           print('JULIEN: O paludo sofria com alcoolismo. Passava o dia todo bebendo Skol no Havana.')
           print('JULIEN: "O decâno foi morto durante um jogo de bocha."\nJULIEN: "Sei também que o assassino foi com a intenção de matar"')
           time.sleep(3)
-          lados[6][2] = '(Morto na Bocha) ^ (Intenção de matar) ^ (Havana)'
+          lados[6][2] = '(Morto na Bocha) ^ (Intenção de matar) ^ (Skol no Havana)?'
         else: 
           lados[6][1] = 'Morto durante a operação.'
           print('Você chega para investigar Julien...')
@@ -167,6 +171,7 @@ while True:
           result_set[2] = False
       while True:   
           print('Analisando suas escolhas...')
+          time.sleep(3)
           if  (result_set[0] and result_set[1] and result_set[2]) == True:
               sub_ = pyfiglet.figlet_format('CONSEGUIU! VINGOU A MORTE DO DECÂNO!', font='standard')
               print(sub_)
